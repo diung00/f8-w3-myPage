@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "w3_band",
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"editor.fontSize": 14
+	}
+}
