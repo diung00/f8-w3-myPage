@@ -57,7 +57,7 @@ html{
 
 #header{
     height: 46px;
-    background-color: black;
+    background-color: #4887B0;
     position: fixed;
     top: 0;
     left: 0;
@@ -96,7 +96,7 @@ display: inline-block;
 
 #nav .subnav li:hover a,
 #nav > li:hover > a {
-    color: black;
+    color: #4887B0;
     background-color: #ccc;
     display: block;
 
@@ -116,14 +116,14 @@ display: inline-block;
 
 }
 #nav .subnav a{
-    color: black;
+    color: #4887B0;
     padding: 0 12px;
     line-height: 38px;
 
 }
 
 #nav .subnav li:hover {
-    color: #000;
+    color: #4887B0;
     background-color: #ccc;
     display: block;
 }
@@ -155,7 +155,7 @@ display: inline-block;
 }
 #header .mobile-menu-btn:hover .menu-icon{
     
-    color: #000;
+    color: #4887B0;
 }
 #header .menu-icon,
 #header .search-icon {
@@ -169,7 +169,8 @@ display: inline-block;
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/assets/img/slider/chicago.jpg') top center ;
+    background: url('/assets/img/slider/seoul.jpg') top center ;
+    background-size: contain;
 }
 
 #slider .text-content{
@@ -238,7 +239,7 @@ display: inline-block;
 }
 
 .tour-section {
-    background-color: #000;
+    background-color: #4887B0;
 }
 
 .ticket-list {
@@ -267,14 +268,15 @@ display: inline-block;
 }
 .ticket-list .quantity {
     float: right;
-    width: 24px;
+    width: 48px;
     height: 24px;
-    background-color: #000;
+    background-color: #4887B0;
     color: #fff;
-    border-radius: 50%;
+    border-radius: 90%;
     text-align: center;
     line-height: 24px;
     margin-top: -3px;
+    cursor: pointer;
 }
 
 .place-list{
@@ -314,7 +316,7 @@ line-height: 1.4;
 }
 .place-buy-btn{
     color: #fff;
-    background-color: #000;
+    background-color: #4887B0;
     text-decoration: none;
     padding: 11px 15px;
     display: inline-block;
@@ -323,7 +325,7 @@ line-height: 1.4;
 }
 .place-buy-btn:hover{
     background-color: #ccc;
-    color: #000;
+    color: #4887B0;
 }
 
 #footer{
@@ -450,7 +452,7 @@ header.modal-header{
 }
 
 .contact-form .form-submit-btn {
-    background-color: #000;
+    background-color: #4887B0;
     color: #fff;
     border: none;
     padding: 10px 16px;
@@ -460,7 +462,7 @@ header.modal-header{
 .contact-form .form-submit-btn:hover{
     cursor: pointer;
     background-color: #757575;
-    color: black;
+    color: #4887B0;
 }
 
 .map-section img {
